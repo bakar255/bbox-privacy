@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assistance — Box Remote</title>
+<style>
+  :root {
+    --bg: #ffffff; --text: #1d1d1f; --dim: #5f6368; --card: #f5f5f7; --accent: #0A84D6; --line: #e3e3e6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111111; --text: #f2f2f2; --dim: #a0a0a5; --card: #1e1e1e; --accent: #3aa0ea; --line: #2c2c2e; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 28px; line-height: 1.25; margin: 0 0 6px; }
+  h2 { font-size: 19px; margin: 36px 0 8px; }
+  h3 { font-size: 16px; margin: 20px 0 4px; }
+  p, li { color: var(--text); }
+  .meta { color: var(--dim); font-size: 14px; margin: 0 0 28px; }
+  .summary { background: var(--card); border-radius: 14px; padding: 16px 18px; }
+  ul { padding-left: 20px; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  footer { color: var(--dim); font-size: 14px; margin-top: 40px; border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Assistance</h1>
+  <p class="meta">Application « Box Remote » · télécommande Wi-Fi pour Bbox TV</p>
+
+  <div class="summary">
+    <strong>Une question ou un souci ?</strong> Écris-nous à
+    <a href="mailto:butanschek@gmail.com">butanschek@gmail.com</a> en précisant ton modèle de
+    téléphone et de Bbox. Réponse sous 48 h en général.
+  </div>
+
+  <h2>Questions fréquentes</h2>
+
+  <h3>L'app ne trouve pas ma Bbox</h3>
+  <ul>
+    <li>Ta Bbox TV doit être allumée (pas en veille profonde).</li>
+    <li>Ton téléphone doit être sur le <strong>même Wi-Fi</strong> que la Bbox. La 4G/5G ne marche
+      pas : tout passe en local.</li>
+    <li>Sur iPhone, l'accès au réseau local doit être autorisé :
+      <em>Réglages › Box Remote › Réseau local</em>.</li>
+    <li>Désactive temporairement un éventuel VPN, puis relance la recherche.</li>
+  </ul>
+
+  <h3>Où trouver le code d'appairage ?</h3>
+  <p>
+    À la première connexion, ta TV affiche un code de 6 caractères. Saisis-le dans l'app. Ensuite,
+    ton téléphone est reconnu et l'app se reconnecte sans code.
+  </p>
+
+  <h3>L'app redemande le code alors que j'étais déjà connecté</h3>
+  <p>
+    Ça arrive après une réinitialisation de la Bbox ou une réinstallation de l'app : la TV ne
+    reconnaît plus ton téléphone. Refais simplement l'appairage avec le code affiché.
+  </p>
+
+  <h3>J'ai acheté Premium mais il n'est pas actif</h3>
+  <p>
+    Va dans <em>Paramètres › Restaurer mes achats</em>, avec le même compte Apple ou Google que
+    celui utilisé pour l'achat.
+  </p>
+
+  <h3>Comment résilier mon abonnement ?</h3>
+  <p>
+    Les abonnements sont gérés par Apple ou Google. Sur iPhone :
+    <em>Réglages › [ton nom] › Abonnements</em>. Sur Android : Google Play ›
+    <em>Paiements et abonnements</em>. L'achat à vie n'est pas un abonnement : il n'y a rien à
+    résilier.
+  </p>
+
+  <h3>Comment changer mes choix pour la publicité ?</h3>
+  <p>
+    Dans <em>Paramètres › Choix pour la publicité</em>. Avec Premium, aucune publicité n'est
+    affichée.
+  </p>
+
+  <h2>Confidentialité</h2>
+  <p>
+    Pas de compte, pas de suivi de ce que tu regardes. Tout le détail est dans la
+    <a href="./">politique de confidentialité</a>.
+  </p>
+
+  <footer>
+    Box Remote est une application indépendante, ni affiliée ni approuvée par Bouygues Telecom.
+    Bbox est une marque de Bouygues Telecom.
+  </footer>
+</main>
+</body>
+</html>
